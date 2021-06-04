@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    {% include 'includes/_navbar.html' %} {% include
+    'includes/_messages.html.j2' %}
+    <div class="container">{% block body %}{% endblock %}</div>
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.ckeditor.com/4.16.0/basic/ckeditor.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      CKEDITOR.replace("editor1");
+    </script>
+  </body>
+</html>

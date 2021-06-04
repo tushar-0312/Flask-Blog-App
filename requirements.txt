@@ -1,0 +1,5 @@
+flask_ckeditor
+flask
+sqlalchemy
+flask_sqlalchemy
+
