@@ -10,6 +10,8 @@
 
 - type `from app import db`
 
+- type `db.create_all()`
+
 - type `exit()`
 
 - python3 app.py
