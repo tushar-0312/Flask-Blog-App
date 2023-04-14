@@ -7,7 +7,7 @@ from passlib.hash import sha256_crypt
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 app = Flask(__name__)
-
+#Made changes here lol
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///userdata.db'
 db = SQLAlchemy(app)
 ckeditor = CKEditor(app)
