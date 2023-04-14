@@ -12,6 +12,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///userdata.db'
 db = SQLAlchemy(app)
 ckeditor = CKEditor(app)
 
+app.app_context().push()
 
 class Register(db.Model):
     __tablename__ = 'users'
