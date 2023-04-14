@@ -10,6 +10,8 @@
 
 - open python shell by typing python3
 
+- type `from app import app`
+
 - type `from app import db`
 
 - type `db.create_all()`
