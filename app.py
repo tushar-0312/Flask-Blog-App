@@ -30,7 +30,7 @@ class Register(db.Model):
         self.username = username
         self.password = password
 
-
+#Class for articles
 class Articles(db.Model):
     __tablename__ = 'articles'
 
